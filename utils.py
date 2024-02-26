@@ -12,7 +12,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from scipy.stats import spearmanr, kendalltau, pearsonr
 import copy
-#import wandb
+import wandb
 
 
 def get_minmax_latency_index(meta_train_devices, train_idx, latency):
