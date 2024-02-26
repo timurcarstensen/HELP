@@ -13,7 +13,7 @@ from help import HELP
 def main():
     for devices in [
             # ["1080ti_1"],
-            ["1080ti_256", "silver_4114", "1080ti_32"], 
+            ["1080ti_256", "silver_4114", "1080ti_32"],
             ["pixel3", "essential_ph_1", "silver_4114", "samsung_a50", "1080ti_256", "1080ti_32"],
             ["samsung_s7", "essential_ph_1", "pixel3", "silver_4114", "samsung_a50", "1080ti_1", "silver_4210r", "1080ti_256", "1080ti_32"]
           ]:
