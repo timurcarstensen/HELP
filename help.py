@@ -328,7 +328,7 @@ class HELP:
         print("==> Training done")
 
     def test_predictor(self):
-        loaded = torch.load(self.load_path)
+        loaded = torch.load(self.save_path + "/checkpoint/help_max_corr.pt")
         print(f"==> load {self.load_path}")
         if "epi" in loaded.keys():
             epi = loaded["epi"]

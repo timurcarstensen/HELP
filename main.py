@@ -48,6 +48,7 @@ def main():
             )
 
             model.meta_train()
+            model.test_predictor()
     # if args.mode == "meta-train":
     # elif args.mode == "meta-test":
     #     model.test_predictor()
