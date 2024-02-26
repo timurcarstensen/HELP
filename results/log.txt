@@ -1,0 +1,219 @@
+2024-02-26 19:18:31,608:INFO: Episode 50/2000
+2024-02-26 19:18:32,590:INFO: [META_TRAIN] spearman: 0.324; mse_loss: 0.057; kl_loss: 81.502; 
+2024-02-26 19:18:33,001:INFO: [META_VALID] spearman: 0.261; mse_loss: 0.057; kl_loss: 81.587; 
+2024-02-26 19:18:38,405:INFO: Episode 100/2000
+2024-02-26 19:18:39,349:INFO: [META_TRAIN] spearman: 0.778; mse_loss: 0.050; kl_loss: 78.776; 
+2024-02-26 19:18:39,748:INFO: [META_VALID] spearman: 0.749; mse_loss: 0.053; kl_loss: 78.864; 
+2024-02-26 19:18:45,146:INFO: Episode 150/2000
+2024-02-26 19:18:46,080:INFO: [META_TRAIN] spearman: 0.785; mse_loss: 0.026; kl_loss: 76.298; 
+2024-02-26 19:18:46,475:INFO: [META_VALID] spearman: 0.766; mse_loss: 0.027; kl_loss: 76.400; 
+2024-02-26 19:18:51,781:INFO: Episode 200/2000
+2024-02-26 19:18:52,679:INFO: [META_TRAIN] spearman: 0.828; mse_loss: 0.019; kl_loss: 73.995; 
+2024-02-26 19:18:53,071:INFO: [META_VALID] spearman: 0.813; mse_loss: 0.021; kl_loss: 74.105; 
+2024-02-26 19:18:58,446:INFO: Episode 250/2000
+2024-02-26 19:18:59,380:INFO: [META_TRAIN] spearman: 0.859; mse_loss: 0.017; kl_loss: 71.799; 
+2024-02-26 19:18:59,793:INFO: [META_VALID] spearman: 0.840; mse_loss: 0.018; kl_loss: 71.912; 
+2024-02-26 19:19:05,150:INFO: Episode 300/2000
+2024-02-26 19:19:06,105:INFO: [META_TRAIN] spearman: 0.868; mse_loss: 0.016; kl_loss: 69.633; 
+2024-02-26 19:19:06,520:INFO: [META_VALID] spearman: 0.866; mse_loss: 0.015; kl_loss: 69.750; 
+2024-02-26 19:19:11,848:INFO: Episode 350/2000
+2024-02-26 19:19:12,768:INFO: [META_TRAIN] spearman: 0.880; mse_loss: 0.015; kl_loss: 67.456; 
+2024-02-26 19:19:13,159:INFO: [META_VALID] spearman: 0.886; mse_loss: 0.013; kl_loss: 67.576; 
+2024-02-26 19:19:18,423:INFO: Episode 400/2000
+2024-02-26 19:19:19,340:INFO: [META_TRAIN] spearman: 0.888; mse_loss: 0.014; kl_loss: 65.216; 
+2024-02-26 19:19:19,749:INFO: [META_VALID] spearman: 0.912; mse_loss: 0.012; kl_loss: 65.340; 
+2024-02-26 19:19:25,029:INFO: Episode 450/2000
+2024-02-26 19:19:25,966:INFO: [META_TRAIN] spearman: 0.897; mse_loss: 0.013; kl_loss: 62.881; 
+2024-02-26 19:19:26,388:INFO: [META_VALID] spearman: 0.873; mse_loss: 0.014; kl_loss: 63.004; 
+2024-02-26 19:19:31,670:INFO: Episode 500/2000
+2024-02-26 19:19:32,598:INFO: [META_TRAIN] spearman: 0.913; mse_loss: 0.012; kl_loss: 60.429; 
+2024-02-26 19:19:33,003:INFO: [META_VALID] spearman: 0.909; mse_loss: 0.010; kl_loss: 60.552; 
+2024-02-26 19:19:38,284:INFO: Episode 550/2000
+2024-02-26 19:19:39,210:INFO: [META_TRAIN] spearman: 0.915; mse_loss: 0.011; kl_loss: 57.861; 
+2024-02-26 19:19:39,673:INFO: [META_VALID] spearman: 0.952; mse_loss: 0.007; kl_loss: 57.967; 
+2024-02-26 19:19:44,998:INFO: Episode 600/2000
+2024-02-26 19:19:45,962:INFO: [META_TRAIN] spearman: 0.919; mse_loss: 0.011; kl_loss: 55.177; 
+2024-02-26 19:19:46,388:INFO: [META_VALID] spearman: 0.945; mse_loss: 0.007; kl_loss: 55.253; 
+2024-02-26 19:19:51,740:INFO: Episode 650/2000
+2024-02-26 19:19:52,693:INFO: [META_TRAIN] spearman: 0.912; mse_loss: 0.012; kl_loss: 52.384; 
+2024-02-26 19:19:53,120:INFO: [META_VALID] spearman: 0.952; mse_loss: 0.006; kl_loss: 52.427; 
+2024-02-26 19:19:58,387:INFO: Episode 700/2000
+2024-02-26 19:19:59,345:INFO: [META_TRAIN] spearman: 0.906; mse_loss: 0.012; kl_loss: 49.517; 
+2024-02-26 19:19:59,733:INFO: [META_VALID] spearman: 0.947; mse_loss: 0.008; kl_loss: 49.524; 
+2024-02-26 19:20:05,022:INFO: Episode 750/2000
+2024-02-26 19:20:05,963:INFO: [META_TRAIN] spearman: 0.927; mse_loss: 0.011; kl_loss: 46.580; 
+2024-02-26 19:20:06,359:INFO: [META_VALID] spearman: 0.954; mse_loss: 0.006; kl_loss: 46.544; 
+2024-02-26 19:20:11,644:INFO: Episode 800/2000
+2024-02-26 19:20:12,586:INFO: [META_TRAIN] spearman: 0.919; mse_loss: 0.010; kl_loss: 43.619; 
+2024-02-26 19:20:13,004:INFO: [META_VALID] spearman: 0.949; mse_loss: 0.008; kl_loss: 43.533; 
+2024-02-26 19:20:18,313:INFO: Episode 850/2000
+2024-02-26 19:20:19,249:INFO: [META_TRAIN] spearman: 0.925; mse_loss: 0.010; kl_loss: 40.673; 
+2024-02-26 19:20:19,659:INFO: [META_VALID] spearman: 0.923; mse_loss: 0.010; kl_loss: 40.539; 
+2024-02-26 19:20:24,957:INFO: Episode 900/2000
+2024-02-26 19:20:25,902:INFO: [META_TRAIN] spearman: 0.911; mse_loss: 0.011; kl_loss: 37.748; 
+2024-02-26 19:20:26,300:INFO: [META_VALID] spearman: 0.937; mse_loss: 0.010; kl_loss: 37.568; 
+2024-02-26 19:20:31,584:INFO: Episode 950/2000
+2024-02-26 19:20:32,518:INFO: [META_TRAIN] spearman: 0.920; mse_loss: 0.011; kl_loss: 34.899; 
+2024-02-26 19:20:32,936:INFO: [META_VALID] spearman: 0.954; mse_loss: 0.007; kl_loss: 34.667; 
+2024-02-26 19:20:38,210:INFO: Episode 1000/2000
+2024-02-26 19:20:39,127:INFO: [META_TRAIN] spearman: 0.907; mse_loss: 0.013; kl_loss: 32.137; 
+2024-02-26 19:20:39,523:INFO: [META_VALID] spearman: 0.939; mse_loss: 0.007; kl_loss: 31.858; 
+2024-02-26 19:20:44,819:INFO: Episode 1050/2000
+2024-02-26 19:20:45,717:INFO: [META_TRAIN] spearman: 0.917; mse_loss: 0.010; kl_loss: 29.502; 
+2024-02-26 19:20:46,112:INFO: [META_VALID] spearman: 0.945; mse_loss: 0.007; kl_loss: 29.181; 
+2024-02-26 19:20:51,427:INFO: Episode 1100/2000
+2024-02-26 19:20:52,340:INFO: [META_TRAIN] spearman: 0.925; mse_loss: 0.010; kl_loss: 26.987; 
+2024-02-26 19:20:52,765:INFO: [META_VALID] spearman: 0.957; mse_loss: 0.007; kl_loss: 26.626; 
+2024-02-26 19:20:58,065:INFO: Episode 1150/2000
+2024-02-26 19:20:58,960:INFO: [META_TRAIN] spearman: 0.927; mse_loss: 0.010; kl_loss: 24.610; 
+2024-02-26 19:20:59,352:INFO: [META_VALID] spearman: 0.947; mse_loss: 0.008; kl_loss: 24.210; 
+2024-02-26 19:21:04,602:INFO: Episode 1200/2000
+2024-02-26 19:21:05,481:INFO: [META_TRAIN] spearman: 0.927; mse_loss: 0.009; kl_loss: 22.394; 
+2024-02-26 19:21:05,872:INFO: [META_VALID] spearman: 0.958; mse_loss: 0.005; kl_loss: 21.965; 
+2024-02-26 19:21:11,181:INFO: Episode 1250/2000
+2024-02-26 19:21:12,120:INFO: [META_TRAIN] spearman: 0.914; mse_loss: 0.012; kl_loss: 20.332; 
+2024-02-26 19:21:12,521:INFO: [META_VALID] spearman: 0.960; mse_loss: 0.005; kl_loss: 19.877; 
+2024-02-26 19:21:17,827:INFO: Episode 1300/2000
+2024-02-26 19:21:18,743:INFO: [META_TRAIN] spearman: 0.916; mse_loss: 0.010; kl_loss: 18.426; 
+2024-02-26 19:21:19,161:INFO: [META_VALID] spearman: 0.956; mse_loss: 0.006; kl_loss: 17.953; 
+2024-02-26 19:21:24,475:INFO: Episode 1350/2000
+2024-02-26 19:21:25,394:INFO: [META_TRAIN] spearman: 0.923; mse_loss: 0.010; kl_loss: 16.666; 
+2024-02-26 19:21:25,847:INFO: [META_VALID] spearman: 0.942; mse_loss: 0.007; kl_loss: 16.178; 
+2024-02-26 19:21:31,165:INFO: Episode 1400/2000
+2024-02-26 19:21:32,111:INFO: [META_TRAIN] spearman: 0.928; mse_loss: 0.011; kl_loss: 15.057; 
+2024-02-26 19:21:32,512:INFO: [META_VALID] spearman: 0.949; mse_loss: 0.007; kl_loss: 14.557; 
+2024-02-26 19:21:37,871:INFO: Episode 1450/2000
+2024-02-26 19:21:38,822:INFO: [META_TRAIN] spearman: 0.924; mse_loss: 0.010; kl_loss: 13.589; 
+2024-02-26 19:21:39,240:INFO: [META_VALID] spearman: 0.954; mse_loss: 0.006; kl_loss: 13.081; 
+2024-02-26 19:21:44,547:INFO: Episode 1500/2000
+2024-02-26 19:21:45,487:INFO: [META_TRAIN] spearman: 0.916; mse_loss: 0.011; kl_loss: 12.248; 
+2024-02-26 19:21:45,896:INFO: [META_VALID] spearman: 0.929; mse_loss: 0.009; kl_loss: 11.735; 
+2024-02-26 19:21:51,169:INFO: Episode 1550/2000
+2024-02-26 19:21:52,066:INFO: [META_TRAIN] spearman: 0.934; mse_loss: 0.010; kl_loss: 11.038; 
+2024-02-26 19:21:52,483:INFO: [META_VALID] spearman: 0.938; mse_loss: 0.008; kl_loss: 10.522; 
+2024-02-26 19:21:57,769:INFO: Episode 1600/2000
+2024-02-26 19:21:58,678:INFO: [META_TRAIN] spearman: 0.927; mse_loss: 0.009; kl_loss: 9.944; 
+2024-02-26 19:21:59,077:INFO: [META_VALID] spearman: 0.934; mse_loss: 0.007; kl_loss: 9.432; 
+2024-02-26 19:22:04,391:INFO: Episode 1650/2000
+2024-02-26 19:22:05,324:INFO: [META_TRAIN] spearman: 0.929; mse_loss: 0.009; kl_loss: 8.944; 
+2024-02-26 19:22:05,722:INFO: [META_VALID] spearman: 0.947; mse_loss: 0.007; kl_loss: 8.436; 
+2024-02-26 19:22:11,012:INFO: Episode 1700/2000
+2024-02-26 19:22:11,929:INFO: [META_TRAIN] spearman: 0.930; mse_loss: 0.009; kl_loss: 8.052; 
+2024-02-26 19:22:12,339:INFO: [META_VALID] spearman: 0.953; mse_loss: 0.006; kl_loss: 7.554; 
+2024-02-26 19:22:17,619:INFO: Episode 1750/2000
+2024-02-26 19:22:18,530:INFO: [META_TRAIN] spearman: 0.928; mse_loss: 0.009; kl_loss: 7.259; 
+2024-02-26 19:22:18,925:INFO: [META_VALID] spearman: 0.945; mse_loss: 0.008; kl_loss: 6.767; 
+2024-02-26 19:22:24,264:INFO: Episode 1800/2000
+2024-02-26 19:22:25,215:INFO: [META_TRAIN] spearman: 0.921; mse_loss: 0.010; kl_loss: 6.549; 
+2024-02-26 19:22:25,608:INFO: [META_VALID] spearman: 0.959; mse_loss: 0.006; kl_loss: 6.052; 
+2024-02-26 19:22:30,897:INFO: Episode 1850/2000
+2024-02-26 19:22:31,817:INFO: [META_TRAIN] spearman: 0.932; mse_loss: 0.010; kl_loss: 5.900; 
+2024-02-26 19:22:32,221:INFO: [META_VALID] spearman: 0.959; mse_loss: 0.006; kl_loss: 5.407; 
+2024-02-26 19:22:37,518:INFO: Episode 1900/2000
+2024-02-26 19:22:38,435:INFO: [META_TRAIN] spearman: 0.921; mse_loss: 0.011; kl_loss: 5.318; 
+2024-02-26 19:22:38,835:INFO: [META_VALID] spearman: 0.938; mse_loss: 0.009; kl_loss: 4.833; 
+2024-02-26 19:22:44,150:INFO: Episode 1950/2000
+2024-02-26 19:22:45,074:INFO: [META_TRAIN] spearman: 0.922; mse_loss: 0.010; kl_loss: 4.812; 
+2024-02-26 19:22:45,525:INFO: [META_VALID] spearman: 0.962; mse_loss: 0.005; kl_loss: 4.321; 
+2024-02-26 19:22:50,838:INFO: Episode 2000/2000
+2024-02-26 19:22:51,766:INFO: [META_TRAIN] spearman: 0.924; mse_loss: 0.010; kl_loss: 4.337; 
+2024-02-26 19:22:52,163:INFO: [META_VALID] spearman: 0.951; mse_loss: 0.006; kl_loss: 3.867; 
+2024-02-26 19:23:02,305:WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:23:02,310:WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:23:02,315:WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:23:02,328:WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:23:02,337:WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:23:02,348:WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:23:11,108:INFO: Episode 50/2000
+2024-02-26 19:23:12,054:INFO: [META_TRAIN] spearman: 0.094; mse_loss: 0.055; kl_loss: 89.798; 
+2024-02-26 19:23:12,468:INFO: [META_VALID] spearman: 0.092; mse_loss: 0.057; kl_loss: 90.232; 
+2024-02-26 19:23:17,807:INFO: Episode 100/2000
+2024-02-26 19:23:18,729:INFO: [META_TRAIN] spearman: 0.756; mse_loss: 0.051; kl_loss: 85.016; 
+2024-02-26 19:23:19,128:INFO: [META_VALID] spearman: 0.745; mse_loss: 0.052; kl_loss: 85.287; 
+2024-02-26 19:23:24,467:INFO: Episode 150/2000
+2024-02-26 19:23:25,383:INFO: [META_TRAIN] spearman: 0.789; mse_loss: 0.035; kl_loss: 80.827; 
+2024-02-26 19:23:25,791:INFO: [META_VALID] spearman: 0.770; mse_loss: 0.039; kl_loss: 80.965; 
+2024-02-26 19:23:31,139:INFO: Episode 200/2000
+2024-02-26 19:23:32,063:INFO: [META_TRAIN] spearman: 0.814; mse_loss: 0.022; kl_loss: 77.187; 
+2024-02-26 19:23:32,484:INFO: [META_VALID] spearman: 0.807; mse_loss: 0.021; kl_loss: 77.231; 
+2024-02-26 19:23:37,801:INFO: Episode 250/2000
+2024-02-26 19:23:38,725:INFO: [META_TRAIN] spearman: 0.841; mse_loss: 0.021; kl_loss: 73.902; 
+2024-02-26 19:23:39,196:INFO: [META_VALID] spearman: 0.828; mse_loss: 0.021; kl_loss: 73.870; 
+2024-02-26 19:23:44,506:INFO: Episode 300/2000
+2024-02-26 19:23:45,414:INFO: [META_TRAIN] spearman: 0.857; mse_loss: 0.017; kl_loss: 70.889; 
+2024-02-26 19:23:45,820:INFO: [META_VALID] spearman: 0.840; mse_loss: 0.018; kl_loss: 70.798; 
+2024-02-26 19:23:51,097:INFO: Episode 350/2000
+2024-02-26 19:23:52,015:INFO: [META_TRAIN] spearman: 0.874; mse_loss: 0.015; kl_loss: 68.078; 
+2024-02-26 19:23:52,463:INFO: [META_VALID] spearman: 0.866; mse_loss: 0.016; kl_loss: 67.943; 
+2024-02-26 19:23:57,718:INFO: Episode 400/2000
+2024-02-26 19:23:58,640:INFO: [META_TRAIN] spearman: 0.883; mse_loss: 0.014; kl_loss: 65.374; 
+2024-02-26 19:23:59,045:INFO: [META_VALID] spearman: 0.873; mse_loss: 0.015; kl_loss: 65.202; 
+2024-02-26 19:24:04,348:INFO: Episode 450/2000
+2024-02-26 19:24:05,261:INFO: [META_TRAIN] spearman: 0.890; mse_loss: 0.014; kl_loss: 62.723; 
+2024-02-26 19:24:05,667:INFO: [META_VALID] spearman: 0.886; mse_loss: 0.014; kl_loss: 62.517; 
+2024-02-26 19:24:10,976:INFO: Episode 500/2000
+2024-02-26 19:24:11,904:INFO: [META_TRAIN] spearman: 0.912; mse_loss: 0.012; kl_loss: 60.073; 
+2024-02-26 19:24:12,303:INFO: [META_VALID] spearman: 0.898; mse_loss: 0.012; kl_loss: 59.834; 
+2024-02-26 19:24:17,575:INFO: Episode 550/2000
+2024-02-26 19:24:18,462:INFO: [META_TRAIN] spearman: 0.911; mse_loss: 0.012; kl_loss: 57.379; 
+2024-02-26 19:24:18,873:INFO: [META_VALID] spearman: 0.921; mse_loss: 0.010; kl_loss: 57.103; 
+2024-02-26 19:24:24,190:INFO: Episode 600/2000
+2024-02-26 19:24:25,135:INFO: [META_TRAIN] spearman: 0.928; mse_loss: 0.010; kl_loss: 54.633; 
+2024-02-26 19:24:25,534:INFO: [META_VALID] spearman: 0.940; mse_loss: 0.007; kl_loss: 54.319; 
+2024-02-26 19:24:30,849:INFO: Episode 650/2000
+2024-02-26 19:24:31,775:INFO: [META_TRAIN] spearman: 0.926; mse_loss: 0.009; kl_loss: 51.826; 
+2024-02-26 19:24:32,193:INFO: [META_VALID] spearman: 0.944; mse_loss: 0.007; kl_loss: 51.473; 
+2024-02-26 19:24:37,515:INFO: Episode 700/2000
+2024-02-26 19:24:38,429:INFO: [META_TRAIN] spearman: 0.926; mse_loss: 0.010; kl_loss: 48.946; 
+2024-02-26 19:24:38,852:INFO: [META_VALID] spearman: 0.934; mse_loss: 0.009; kl_loss: 48.552; 
+2024-02-26 19:24:44,171:INFO: Episode 750/2000
+2024-02-26 19:24:45,092:INFO: [META_TRAIN] spearman: 0.923; mse_loss: 0.010; kl_loss: 46.009; 
+2024-02-26 19:24:45,493:INFO: [META_VALID] spearman: 0.951; mse_loss: 0.006; kl_loss: 45.574; 
+2024-02-26 19:24:50,811:INFO: Episode 800/2000
+2024-02-26 19:24:51,704:INFO: [META_TRAIN] spearman: 0.911; mse_loss: 0.011; kl_loss: 43.001; 
+2024-02-26 19:24:52,110:INFO: [META_VALID] spearman: 0.956; mse_loss: 0.005; kl_loss: 42.514; 
+2024-02-26 19:24:57,396:INFO: Episode 850/2000
+2024-02-26 19:24:58,317:INFO: [META_TRAIN] spearman: 0.914; mse_loss: 0.011; kl_loss: 39.981; 
+2024-02-26 19:24:58,721:INFO: [META_VALID] spearman: 0.944; mse_loss: 0.009; kl_loss: 39.451; 
+2024-02-26 19:25:04,010:INFO: Episode 900/2000
+2024-02-26 19:25:04,931:INFO: [META_TRAIN] spearman: 0.921; mse_loss: 0.010; kl_loss: 36.961; 
+2024-02-26 19:25:05,336:INFO: [META_VALID] spearman: 0.956; mse_loss: 0.005; kl_loss: 36.381; 
+2024-02-26 19:25:10,604:INFO: Episode 950/2000
+2024-02-26 19:25:11,538:INFO: [META_TRAIN] spearman: 0.911; mse_loss: 0.011; kl_loss: 34.013; 
+2024-02-26 19:25:11,941:INFO: [META_VALID] spearman: 0.946; mse_loss: 0.005; kl_loss: 33.399; 
+2024-02-26 19:25:17,233:INFO: Episode 1000/2000
+2024-02-26 19:25:18,159:INFO: [META_TRAIN] spearman: 0.906; mse_loss: 0.012; kl_loss: 31.115; 
+2024-02-26 19:25:18,575:INFO: [META_VALID] spearman: 0.958; mse_loss: 0.006; kl_loss: 30.456; 
+2024-02-26 19:25:23,841:INFO: Episode 1050/2000
+2024-02-26 19:25:24,727:INFO: [META_TRAIN] spearman: 0.928; mse_loss: 0.010; kl_loss: 28.322; 
+2024-02-26 19:25:25,122:INFO: [META_VALID] spearman: 0.948; mse_loss: 0.006; kl_loss: 27.625; 
+2024-02-26 19:25:30,391:INFO: Episode 1100/2000
+2024-02-26 19:25:31,316:INFO: [META_TRAIN] spearman: 0.933; mse_loss: 0.009; kl_loss: 25.655; 
+2024-02-26 19:25:31,713:INFO: [META_VALID] spearman: 0.954; mse_loss: 0.006; kl_loss: 24.927; 
+2024-02-26 19:25:36,999:INFO: Episode 1150/2000
+2024-02-26 19:25:37,914:INFO: [META_TRAIN] spearman: 0.925; mse_loss: 0.010; kl_loss: 23.145; 
+2024-02-26 19:25:38,310:INFO: [META_VALID] spearman: 0.944; mse_loss: 0.009; kl_loss: 22.393; 
+2024-02-26 19:25:43,597:INFO: Episode 1200/2000
+2024-02-26 19:25:44,511:INFO: [META_TRAIN] spearman: 0.922; mse_loss: 0.010; kl_loss: 20.800; 
+2024-02-26 19:25:44,927:INFO: [META_VALID] spearman: 0.954; mse_loss: 0.005; kl_loss: 20.048; 
+2024-02-26 19:25:50,172:INFO: Episode 1250/2000
+2024-02-26 19:25:51,075:INFO: [META_TRAIN] spearman: 0.924; mse_loss: 0.011; kl_loss: 18.628; 
+2024-02-26 19:25:51,472:INFO: [META_VALID] spearman: 0.945; mse_loss: 0.007; kl_loss: 17.854; 
+2024-02-26 19:25:56,740:INFO: Episode 1300/2000
+2024-02-26 19:25:57,634:INFO: [META_TRAIN] spearman: 0.926; mse_loss: 0.009; kl_loss: 16.626; 
+2024-02-26 19:25:58,030:INFO: [META_VALID] spearman: 0.958; mse_loss: 0.005; kl_loss: 15.853; 
+2024-02-26 19:26:03,321:INFO: Episode 1350/2000
+2024-02-26 19:26:04,245:INFO: [META_TRAIN] spearman: 0.933; mse_loss: 0.010; kl_loss: 14.799; 
+2024-02-26 19:26:04,685:INFO: [META_VALID] spearman: 0.932; mse_loss: 0.008; kl_loss: 14.034; 
+2024-02-26 19:26:09,960:INFO: Episode 1400/2000
+2024-02-26 19:26:10,879:INFO: [META_TRAIN] spearman: 0.922; mse_loss: 0.011; kl_loss: 13.149; 
+2024-02-26 19:26:11,291:INFO: [META_VALID] spearman: 0.960; mse_loss: 0.006; kl_loss: 12.383; 
+2024-02-26 19:26:16,565:INFO: Episode 1450/2000
+2024-02-26 19:26:17,472:INFO: [META_TRAIN] spearman: 0.923; mse_loss: 0.011; kl_loss: 11.648; 
+2024-02-26 19:26:17,861:INFO: [META_VALID] spearman: 0.951; mse_loss: 0.006; kl_loss: 10.899; 
+2024-02-26 19:26:29,689:WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:26:29,695:WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:26:29,701:WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:26:29,713:WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:26:29,720:WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
+2024-02-26 19:26:29,726:WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'OSError('Tunnel connection failed: 403 Forbidden')': /api/4504800232407040/envelope/
