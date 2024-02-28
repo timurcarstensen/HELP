@@ -11,44 +11,48 @@ from help import HELP
 
 
 def main():
-    for num_samples in [900, 700, 450, 300, 200, 100, 50]:
-        for seed in [1, 2, 3, 4, 42]:
-            model = HELP(
-                search_space="nasbench201",
-                mode="meta-train",
-                num_samples=10,
-                seed=seed,
-                num_meta_train_sample=num_samples,
-                # exp_name="reproduce",
-                meta_train_devices=[
-                    "1080ti_1",
-                    "1080ti_32",
-                    "1080ti_256",
-                    "silver_4114",
-                    "silver_4210r",
-                    "samsung_a50",
-                    "pixel3",
-                    "essential_ph_1",
-                    "samsung_s7",
-                ],
-                meta_valid_devices=["titanx_1", "titanx_32", "titanx_256", "gold_6240"],
-                meta_test_devices=[
-                    "titan_rtx_256",
-                    "gold_6226",
-                    "fpga",
-                    "pixel2",
-                    "raspi4",
-                    "eyeriss",
-                ],
-                data_path="/Users/timurcarstensen/PycharmProjects/HELP/data/nasbench201/",
-                use_wandb=True,
-                project="thesis-help-plots",
-                group=f"{num_samples}-samples",
-                exp_name=f"seed-{seed}",
-            )
+    for devices in [
+            # ["1080ti_1"],
+            ["1080ti_256", "silver_4114", "1080ti_32"], 
+            ["pixel3", "essential_ph_1", "silver_4114", "samsung_a50", "1080ti_256", "1080ti_32"],
+            ["samsung_s7", "essential_ph_1", "pixel3", "silver_4114", "samsung_a50", "1080ti_1", "silver_4210r", "1080ti_256", "1080ti_32"]
+          ]:
+        for num_samples in [900, 700, 450, 300, 200, 100, 50]:
+            for seed in [1, 2, 3, 4, 42]:
+                model = HELP(
+                    search_space="nasbench201",
+                    mode="meta-train",
+                    num_samples=10,
+                    num_inner_tasks=len(devices)-1,
+                    seed=seed,
+                    num_meta_train_sample=num_samples,
+                    # exp_name="reproduce",
+                    meta_train_devices=devices,
+                    meta_valid_devices=[
+                        "titan_rtx_256",
+                        "gold_6226",
+                        "fpga",
+                        "pixel2",
+                        "raspi4",
+                        "eyeriss",
+                    ],
+                    meta_test_devices=[
+                        "titan_rtx_256",
+                        "gold_6226",
+                        "fpga",
+                        "pixel2",
+                        "raspi4",
+                        "eyeriss",
+                    ],
+                    data_path="/home/cat7rng/repositories/HELP/data/nasbench201/",
+                    use_wandb=True,
+                    project="thesis-help-plots-fewer-devices",
+                    group=f"{num_samples}-samples",
+                    exp_name=f"seed-{seed}-{''.join(devices)}",
+                )
 
-            model.meta_train()
-            model.test_predictor()
+                model.meta_train()
+                model.test_predictor()
     # if args.mode == "meta-train":
     # elif args.mode == "meta-test":
     #     model.test_predictor()
