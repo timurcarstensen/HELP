@@ -30,7 +30,26 @@ def main():
             "1080ti_32",
         ]
     ]:
-        for num_samples in [850, 800, 750, 650, 600, 550, 500, 400, 350, 250, 150]:
+        for num_samples in [
+            900,
+            850,
+            800,
+            750,
+            700,
+            650,
+            600,
+            550,
+            500,
+            450,
+            400,
+            350,
+            300,
+            250,
+            200,
+            150,
+            100,
+            50,
+        ]:
             for seed in [1, 2, 3, 4, 42]:
                 model = HELP(
                     search_space="nasbench201",
@@ -59,7 +78,7 @@ def main():
                     ],
                     data_path=f"{Path(__file__).parent}/data/nasbench201/",
                     use_wandb=True,
-                    project="thesis-help-plots",
+                    project="thesis-help-plots-v2",
                     group=f"{num_samples}-samples",
                     # exp_name=f"seed-{seed}-{''.join(devices)}",
                     exp_name=f"seed-{seed}",
