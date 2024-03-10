@@ -5,25 +5,38 @@
 ####################################################################################################
 
 import os
+from pathlib import Path
+
 import torch
+
 from parser import get_parser
 from help import HELP
 
 
 def main():
     for devices in [
-            # ["1080ti_1"],
-            ["1080ti_256", "silver_4114", "1080ti_32"],
-            ["pixel3", "essential_ph_1", "silver_4114", "samsung_a50", "1080ti_256", "1080ti_32"],
-            ["samsung_s7", "essential_ph_1", "pixel3", "silver_4114", "samsung_a50", "1080ti_1", "silver_4210r", "1080ti_256", "1080ti_32"]
-          ]:
-        for num_samples in [900, 700, 450, 300, 200, 100, 50]:
+        # ["1080ti_1"],
+        # ["1080ti_256", "silver_4114", "1080ti_32"],
+        # ["pixel3", "essential_ph_1", "silver_4114", "samsung_a50", "1080ti_256", "1080ti_32"],
+        [
+            "samsung_s7",
+            "essential_ph_1",
+            "pixel3",
+            "silver_4114",
+            "samsung_a50",
+            "1080ti_1",
+            "silver_4210r",
+            "1080ti_256",
+            "1080ti_32",
+        ]
+    ]:
+        for num_samples in [850, 800, 750, 650, 600, 550, 500, 400, 350, 250, 150]:
             for seed in [1, 2, 3, 4, 42]:
                 model = HELP(
                     search_space="nasbench201",
                     mode="meta-train",
                     num_samples=10,
-                    num_inner_tasks=len(devices)-1,
+                    num_inner_tasks=len(devices) - 1,
                     seed=seed,
                     num_meta_train_sample=num_samples,
                     # exp_name="reproduce",
@@ -44,11 +57,12 @@ def main():
                         "raspi4",
                         "eyeriss",
                     ],
-                    data_path="/home/cat7rng/repositories/HELP/data/nasbench201/",
+                    data_path=f"{Path(__file__).parent}/data/nasbench201/",
                     use_wandb=True,
-                    project="thesis-help-plots-fewer-devices",
+                    project="thesis-help-plots",
                     group=f"{num_samples}-samples",
-                    exp_name=f"seed-{seed}-{''.join(devices)}",
+                    # exp_name=f"seed-{seed}-{''.join(devices)}",
+                    exp_name=f"seed-{seed}",
                 )
 
                 model.meta_train()

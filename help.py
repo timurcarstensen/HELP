@@ -8,7 +8,7 @@ from collections import OrderedDict
 import json
 
 import wandb
-from torch.utils.tensorboard import SummaryWriter
+# from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
 from net import MetaLearner
@@ -141,7 +141,8 @@ class HELP:
                 # wandb.config.update(args)
                 writer = None
             else:
-                writer = SummaryWriter(log_dir=self.save_path)
+                pass
+                # writer = SummaryWriter(log_dir=self.save_path)
             self.log = {
                 "meta_train": Log(
                     self.save_path,
